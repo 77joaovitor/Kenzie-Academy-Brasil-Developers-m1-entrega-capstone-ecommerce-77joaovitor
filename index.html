@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title>Market</title>
+</head>
+<body>
+    <header class= "cabecalho">
+     <h1>
+       <strong>Weartake</strong>
+     </h1>
+     <section class="categoria">
+     <ul class="listacategorias">
+         <li><button class="cat">Todos</button></li>
+         <li><button class="cat">Acessórios</Button></li>
+         <li><button class="cat">Calçados</button></li>
+         <li><button class="cat">Camisetas</button></li>
+     </ul>
+     </section>
+    </header>
+    <div class="pagina">
+    <main>
+         <!-- <ul class = "vitrine">
+            <li class="card">
+                <img src="../img/jaqueta.svg">
+                <div class="categor">
+                    <h3 class="category">
+                        Camisetas
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>Lightweight Jacket</strong></h2>
+                        <p class=description"></p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco">R$ 100.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+            <li class="card">
+                <img src="../img/gorro.svg">
+                <div class="categor">
+                    <h3 class="category">
+                        Acessórios
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>Black Hat</strong></h2>
+                        <p class="description"></p>O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...</p>
+                        <p class="preco">R$ 100.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+            <li class="card">
+                <img src="../img/mascara.svg",>
+                <div class="categor">
+                    <h3 class="category">
+                        Acessórios
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>Mask</strong></h2>
+                        <p class="description"></p>Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                        <p class="preco">R$ 40.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+            <li class="card">
+                <img src="../img/camiseta_preta.svg">
+                <div class="categor">
+                    <h3 class="category">
+                        Camisa
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>"T-Shirt"</strong></h2>
+                        <p class="description"></p>Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
+                        <p class="preco">R$ 100.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+            <li class="card">
+                <div class="boximg">
+                <img src="/img/camiseta_branca.svg">
+                </div>
+                <div class="categor">
+                    <h3 class="category">
+                        Camisa
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>Short-Sleeve T-Shirt</strong></h2>
+                        <p class="description"></p>Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...</p>
+                        <p class="preco">R$ 100.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+            <li class="card">
+                <div class="boximg">
+                <img src="../img/moletom.svg">
+                </div>
+                <div class="categor">
+                    <h3 class="category">
+                        Camisa
+                    </h3>
+                </div>
+                <section class="productbody">
+                    <h2><strong>Champion Packable Jacket</strong></h2>
+                        <p class="description"></p>Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...</p>
+                        <p class="preco">R$ 100.00</p>
+                    <button class="add">Adicionar ao carrinho</button>
+                </section>
+
+            </li>
+
+         </ul> -->
+    </main>
+     <div class="pc">
+        <section class="pesquisa">
+           <input type="text" id="pequisar" placeholder="Digite aqui sua pesquisa" required>
+           <button class="pesq"><p class="textpesq">Pesquisar</p></button>
+   
+        </section>
+        <section class="carrinhocompra">
+           <div id="titulocar">
+               <h3>Carrinho de compras</h3>
+           </div>
+           <div class="produtocarrinho">
+               <!-- <div id="boxcarrinho">
+           <h4><strong>Carrinho vázio</strong> </h4>
+           <button id="additem">Adicione itens</button>
+               </div> -->
+           </div>
+           <section id="infocheckout">
+            <!-- <div class="quantidade1">
+                 <p class="quantidade">Quantidade:</p>
+                 <p class="quantidade">3</p>
+         
+            </div>
+            <div class="total">
+                 <p class="quantidade">Total</p>
+                 <p class="quantidade">300</p>
+            </div> -->
+
+        </section>
+        </section>
+        
+        </div>
+    </div>
+</body>
+</html>
